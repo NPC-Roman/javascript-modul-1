@@ -1,2 +1,1 @@
-# javascript-modul-1
- 
+# модуль 1
