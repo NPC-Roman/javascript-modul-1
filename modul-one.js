@@ -219,5 +219,17 @@ console.log(checkPassword("jqueryismyjam"));*/
 //---------//
 // Тест 21 //
 //---------//
-  
-  
+/*function isNumberInRange(start, end, number) {
+  const isInRange = (number >= start) && (number <= end);
+  return isInRange;
+};
+console.log(isNumberInRange(10, 30, 17));*/
+//---------//
+// Тест 22 //
+//---------//
+/*function checkIfCanAccessContent(subType) {
+  const canAccessContent = (subType === "pro") || (subType === "vip");  
+  return canAccessContent;}*/
+//---------//
+// Тест 23 //
+//---------//
