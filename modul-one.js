@@ -233,3 +233,149 @@ console.log(isNumberInRange(10, 30, 17));*/
 //---------//
 // Тест 23 //
 //---------//
+/*function isNumberNotInRange(start, end, number) {
+  const isInRange = number >= start && number <= end;
+  const isNotInRange = !isInRange;
+  return isNotInRange;
+}*/
+//---------//
+// Тест 24 //
+//---------//
+/*function getDiscount(totalSpent) {
+  const BASE_DISCOUNT = 0;
+  const BRONZE_DISCOUNT = 0.02;
+  const SILVER_DISCOUNT = 0.05;
+  const GOLD_DISCOUNT = 0.1;
+  let discount;
+
+if (totalSpent >= 50000) {
+  discount = GOLD_DISCOUNT;
+} 
+else if (totalSpent >= 20000 && totalSpent < 50000) {
+  discount = SILVER_DISCOUNT;
+} 
+else if (totalSpent >= 5000 && totalSpent < 20000) {
+  discount = BRONZE_DISCOUNT;
+}
+else {
+  discount = BASE_DISCOUNT;
+}
+  return discount;
+}
+console.log(getDiscount(137000));*/
+//---------//
+// Тест 25 //
+//---------//
+/*function checkStorage(available, ordered) {
+  let message;
+  message = (ordered > available) ? "Not enough goods in stock!" : "The order is accepted, our manager will contact you";
+  return message;
+  }
+  
+  console.log(checkStorage(200, 20))*/
+//---------//
+// Тест 26 //
+//---------//
+/*function checkPassword(password) {
+  const ADMIN_PASSWORD = "jqueryismyjam";
+  let message;
+  message = (password === ADMIN_PASSWORD) ? "Access is allowed" : "Access denied, wrong password!";
+  
+  return message;
+  }
+  
+  console.log(checkPassword("jqueryismyjam"));*/
+//---------//
+// Тест 27 //
+//---------//
+/*function getSubscriptionPrice(type) {
+  let price;
+  // Change code below this line
+
+ switch (type) { 
+    case "starter": 
+      price = 0; 
+      break;
+
+    case "professional": 
+      price = 20; 
+      break;
+
+    case "organization": 
+      price =50; 
+      break;
+  }
+  return price;
+}
+console.log(getSubscriptionPrice("starter"));*/
+//---------//
+// Тест 28 //
+//---------//
+/*function checkPassword(password) {
+  const ADMIN_PASSWORD = "jqueryismyjam";
+  let message;
+
+switch (password) {
+    
+    case null:    
+      message = "Canceled by user!";
+      break;
+  
+    case ADMIN_PASSWORD:
+      message = "Welcome!";
+      break;
+  
+    default:
+      message = "Access denied, wrong password!";
+  }
+  return message;
+}
+console.log(checkPassword("mangohackzor"))*/
+//---------//
+// Тест 29 //
+//---------//
+/*function getShippingCost(country) {
+  let message;
+  
+switch (country) {
+  case "China":
+    message = "Shipping to China will cost 100 credits";
+    break;
+
+  case "Chile":
+    message = "Shipping to Chile will cost 250 credits";
+    break;
+
+  case "Australia":
+    message = "Shipping to Australia will cost 170 credits";
+    break;
+
+  case "Jamaica":
+    message = "Shipping to Jamaica will cost 120 credits";
+    break;
+
+  default:
+    message = "Sorry, there is no delivery to your country";
+}
+ 
+  return message;
+}
+
+getShippingCost("Jamaica");*/
+//---------//
+// Тест 30 //
+//---------//
+/*function getNameLength(name) {
+  const message = `Name ${name} is ${name.length} characters long`;
+  return message;
+}
+console.log(getNameLength("Poly"));*/
+//---------//
+// Тест 31 //
+//---------//
+/*const courseTopic = "JavaScript essentials";
+
+const courseTopicLength = courseTopic.length;
+const firstElement = courseTopic[0];
+const lastElement = courseTopic[courseTopic.length - 1];
+console.log(lastElement);*/
