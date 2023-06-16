@@ -379,3 +379,27 @@ const courseTopicLength = courseTopic.length;
 const firstElement = courseTopic[0];
 const lastElement = courseTopic[courseTopic.length - 1];
 console.log(lastElement);*/
+//---------//
+// Тест 32 //
+//---------//
+
+//---------//
+//         //
+//---------//
+/*let numOrder = prompt("Введіть кількість товару");
+numOrder = Number(numOrder);
+console.log(numOrder)
+
+const whatItThis = typeof numOrder;
+console.log(whatItThis)*/
+const colors = ['green', 'darkred', 'pink', 'blue', 'orchid', 'red']; //['candy', 'merigold', 'mantis', 'baby blue', 'orchid', 'rouge'];
+const max = colors.length - 1;
+const min = 0;
+
+const index = Math.round(Math.random() * (max - min) + min);
+
+const color = colors[index];
+
+console.log(color);
+
+document.body.style.backgroundColor = color;
