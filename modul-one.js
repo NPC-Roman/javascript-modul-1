@@ -382,7 +382,49 @@ console.log(lastElement);*/
 //---------//
 // Тест 32 //
 //---------//
-
+/*function getSubstring(string, length) {
+  const substring = string.slice(0, length);
+  return substring;
+}
+console.log(getSubstring("Hello world", 3));*/
+//---------//
+// Тест 33 //
+//---------//
+/*function formatMessage(message, maxLength) {
+  let result;
+  if (message.length === maxLength) {
+    result = message
+  } else if (message.length > maxLength) {
+    result = `${message.slice(0, maxLength)}...`
+  }
+  return result;
+}
+console.log(formatMessage("Curabitur ligula sapien", 16));*/
+//---------//
+// Тест 34 //
+//---------//
+/*function normalizeInput(input) {
+  const normalizedInput = input.toLowerCase() ; 
+  return normalizedInput;
+}*/
+//---------//
+// Тест 35 //
+//---------//
+/*function checkForName(fullName, name) {
+  const result = fullName.includes(name);
+   return result;
+ }*/ 
+ //---------//
+// Тест 36 //
+//---------//
+/*function checkForSpam(message) {
+  const badWord1 = 'spam';
+  const badWord2 = 'sale';
+  let result;
+result = message.toLowerCase().includes(badWord2) || message.toLowerCase().includes(badWord1);
+  return result;
+}
+console.log(checkForSpam("Amazing SalE, only tonight!"));*/
 //---------//
 //         //
 //---------//
