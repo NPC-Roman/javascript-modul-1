@@ -173,8 +173,86 @@ const lastThreeEls = fruits.slice(-3);*/
 //---------//
 //----15---//
 //---------//
-const oldClients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
+/*const oldClients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
 const newClients = ['Peach', 'Houston'];
 
 const allClients = oldClients.concat(newClients);
-console.log(allClients);
+console.log(allClients);*/
+//---------//
+//----16---//
+//---------//
+/*function makeArray(firstArray, secondArray, maxLength) {
+    const newArr = firstArray.concat(secondArray);
+    newArr.slice(0, -3);
+    console.log(newArr);
+    console.log(newArr.length);
+
+    const doneArr = newArr.slice(0, maxLength);
+    console.log(doneArr);
+    console.log(doneArr.length);
+
+    return doneArr;
+}
+console.log(makeArray(['Earth', 'Jupiter'], ['Neptune', 'Uranus', 'Venus'], 0));*/
+//---------//
+//----17---//
+//---------//
+/*const start = 3;
+const end = 7;
+
+for (let i = start; i <= end; i += 1) {
+    console.log(i);
+}*/
+//---------//
+//----18---//
+//---------//
+/*function calculateTotal(number) {
+    const arr = Array.from({ length: number }, (_, index) => index + 1);
+    console.log(arr);
+
+    let sum = 0;
+    for (let i = 0; i < arr.length; i += 1) {
+        sum += arr[i];
+        console.log(sum);
+    }
+    return sum;
+}
+calculateTotal(7);*/
+//---------//
+//----19---//
+//---------//
+/*const fruits = ['apple', 'plum', 'pear', 'orange'];
+for (let i = 0; i < fruits.length; i += 1) {
+  const fruit = fruits[i];
+  console.log(fruit);
+}*/
+//---------//
+//----20---//
+//---------//
+/*function calculateTotalPrice(order) {
+  console.log(order)  
+  let total = 0;
+  
+  for (let item = 0; item < order.length; item += 1) {    
+  total += order[item]
+}
+  return total;
+}
+console.log(calculateTotalPrice([412, 371, 94, 63, 176]))*/
+//---------//
+//----21---//
+//---------// //---------// //---------// //---------// //---------// //---------// //---------// //---------//
+/*function findLongestWord(string) {
+  let shortStrArr = string.split(" ")
+  let longWorld = " ";
+
+  for (const word of shortStrArr) {
+        if (word.length > longWorld.length) {
+            longWorld = word;       
+        }      
+    }  
+return longWorld;*/
+//---------// //---------// //---------// //---------// //---------// //---------// //---------// //---------//
+//---------//
+//----22---//
+//---------//
