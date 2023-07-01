@@ -1,7 +1,7 @@
 //---------//
 //         //
 //---------//
-const colors = ['#47d147', '#ff8080', 'pink', '#80b3ff', 'orchid', '#1ad1ff']; 
+const colors = ['#47d147', '#ff8080', 'pink', '#80b3ff', 'orchid', '#1ad1ff'];
 const max = colors.length - 1;
 const min = 0;
 const index = Math.round(Math.random() * (max - min) + min);
@@ -331,4 +331,25 @@ for (const color of colors) {
 console.log(hexColors)*/
 //---------//
 //----18---//
+//---------//
+/*const products = [
+  { name: "Radar", price: 1300, quantity: 4 },
+  { name: "Scanner", price: 2700, quantity: 3 },
+  { name: "Droid", price: 400, quantity: 7 },
+  { name: "Grip", price: 1200, quantity: 9 },
+];
+
+function getProductPrice(productName) {
+  for (const items of products) {  
+      if (items.name === productName) {        
+          return items.price           
+        }       
+  }
+  return null
+  console.log(items)
+}
+console.log(getProductPrice("Droid"))
+console.log(getProductPrice("Engine"))*/
+//---------//
+//----19---//
 //---------//
