@@ -132,11 +132,40 @@ child.age = 27;*/
 //---------//
 //----07---//
 //---------//
-class Car {
-    constructor (brand, model, price) {
-      this.brand = brand;
-      this.model = model;
-      this.price = price;
-    };
+/*class Car {
+  constructor (brand, model, price) {
+    this.brand = brand;
+    this.model = model;
+    this.price = price;
+  };
 };
-console.log(new Car("Audi", "Q3", 36000));
+console.log(new Car("Audi", "Q3", 36000));*/
+//---------//
+//----08---//
+//---------//
+/*class Car {
+  constructor({brand, model, price}) {
+    this.brand = brand;
+    this.model = model;
+    this.price = price;
+  }
+};*/
+//---------//
+//----09---//
+//---------//
+/*class Car {
+  constructor({ brand, model, price }) {
+    this.brand = brand;
+    this.model = model;
+    this.price = price;
+  }
+
+getPrice() {
+  return this.price;
+};
+
+changePrice(newPrice) {
+  this.price = newPrice;
+  return;
+};
+};*/
